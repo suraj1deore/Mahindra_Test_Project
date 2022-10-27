@@ -34,7 +34,6 @@ def index(request):
             format1 = book.add_format({'bg_color': "#FFFF00",'border':2,'bold':True})
             format2 = book.add_format({'border':1})
             format3 = book.add_format({'bg_color': "#00ADF2",'border':2,'bold':True})
-            
             format1.set_align('center')
             format2.set_align('center')
             format3.set_align('center')
